@@ -1,0 +1,13 @@
+body{
+    background-color: #D5D5D5;
+}
+.circular_image{
+    float: right;
+    margin-left:125px;
+    margin-top: 15px;
+    width: 400px;
+    height: 500px;
+    border-radius: 50%; /* Modified*/
+    /*overflow:hidden;*/
+    background-color: blue;
+}
