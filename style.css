@@ -76,6 +76,6 @@ a:hover {
   color: black;
 }
 
-button {
+button.btn {
   width: 100%;
 }
