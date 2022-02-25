@@ -79,3 +79,10 @@ a:hover {
 button.btn {
   width: 100%;
 }
+
+#color_p {
+  background-color: #a4a5fa;
+  color: #1b1a1a;
+  border: 2px solid #a4a5fa;
+  padding: 5px;
+}
