@@ -1,16 +1,179 @@
 body {
-  background-color: #b8c6db;
-  background-image: linear-gradient(315deg, #b8c6db 80%, #f5f7fa 100%);
+  /* background: linear-gradient(rgb(162, 215, 255), #ffc9e3); */
+  background-image: url("https://www.publicdomainpictures.net/pictures/320000/velka/pier-bootssteg-nacht-himmel.jpg");
+  /*Citation: img from Andrea Stockel from public domainpictures.net*/
+  background-size: cover;
 }
-.circular_image {
-  float: right;
-  margin-left: 125px;
-  margin-top: 15px;
-  width: 400px;
-  height: 500px;
-  border-radius: 15%; /* Modified*/
-  /*overflow:hidden;*/
+
+.center-it {
+  text-align: center;
 }
+
+.color-block {
+  background-color: rgb(154, 164, 185);
+  opacity: 85%;
+}
+
+.rid-of-padding {
+  padding: 0px;
+}
+
+.color {
+  color: black;
+}
+
+.round-edge {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.figure {
+  border-left: 0.25rem solid rgb(60, 177, 255);
+  padding: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  background-color: white;
+  opacity: 85%;
+}
+
+.words {
+  padding: 2%;
+  text-align: center;
+}
+
+.blockquote-footer {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* .test1 {
+  background-color: rgb(179, 222, 255);
+}
+
+.test2 {
+  background-color: rgb(194, 200, 255);
+}
+
+.test3 {
+  background-color: #ffc9c3;
+} */
+
+.bg-light {
+  background-color: rgb(181, 204, 255) !important;
+}
+
+.logo {
+  border-radius: 10px;
+  max-height: 45px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  background-color: rgb(144, 206, 247);
+  color: white;
+  border-radius: 20px;
+}
+
+span.navbar-brand {
+  padding-left: 1.5rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  background-color: rgb(144, 206, 247);
+  border-radius: 20px;
+  color: white;
+}
+
+.btn-primary {
+  background-color: rgb(129, 184, 221);
+  border-color: rgb(144, 206, 247);
+  color: white;
+}
+
+.btn-outline-primary {
+  border-color: rgb(144, 206, 247);
+  color: rgb(144, 206, 247);
+  background-color: transparent;
+}
+
+.card-title {
+  padding-top: 2%;
+  font-family: Gabriola;
+}
+
+.card-text {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.face {
+  max-height: 500px;
+  opacity: 85%;
+  border-radius: 5px;
+}
+
+.shadow {
+  box-shadow: 20px -20px rgb(144, 206, 247);
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.testing {
+  padding-right: 4%;
+  padding-left: 4%;
+}
+
+h1,
+h2,
+p,
+h3,
+h4 {
+  font-family: Gabriola;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+}
+
+.interests {
+  color: white;
+  font-size: 40px;
+  list-style-type: none;
+  font-family: Gabriola;
+  padding: 0;
+}
+
+.navbar-brand,
+li,
+strong,
+h5,
+small {
+  font-family: "Courier New", Courier, monospace;
+}
+
+small {
+  color: black;
+}
+
+.spacing {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.color-section {
+  align-items: center;
+  object-fit: cover;
+}
+
 #caption {
   font-size: 28px;
   padding: 5px;
@@ -19,12 +182,6 @@ body {
 #quote {
   font-size: 100px;
   margin: 8%;
-}
-
-.words {
-  font-size: 20px;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 .col-md-3 {
@@ -64,7 +221,7 @@ body {
 .text {
   background-color: #04aa6d;
   color: white;
-  font-size: 16px;
+  font-size: 25px;
   padding: 16px 32px;
 }
 
@@ -85,4 +242,80 @@ button.btn {
   color: #1b1a1a;
   border: 2px solid #a4a5fa;
   padding: 5px;
+}
+
+/*Contact from Katie's Koments*/
+.glow {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 7px rgb(28, 124, 248), 0 0 10px rgb(28, 124, 248),
+    0 0 50px rgb(28, 124, 248), 0 0 40px skyblue, 0 0 50px skyblue,
+    0 0 50px skyblue, 0 0 50px skyblue, 0 0 50px skyblue;
+}
+
+.glow-1 {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 7px rgb(28, 124, 248), 0 0 10px rgb(28, 124, 248),
+    0 0 50px rgb(28, 124, 248), 0 0 40px skyblue, 0 0 50px skyblue,
+    0 0 50px skyblue, 0 0 50px skyblue, 0 0 50px skyblue;
+}
+
+.contact-line {
+  background-color: rgb(255, 255, 255);
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.form-section,
+.email-form,
+.message-form {
+  float: left;
+}
+
+table {
+  width: 100%;
+}
+
+p.border {
+  background-color: white;
+}
+
+.border {
+  border-color: black;
+}
+
+.texts,
+#contact-info {
+  background-color: rgb(255, 255, 255);
+  margin: 30px;
+  border-radius: 8px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.overlay {
+  background-color: black;
+  opacity: 90%;
+  overflow: hidden;
+  position: relative;
+  max-width: 700px;
+}
+
+.background {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+  /*Citation: img from Andrea Stockel from public domainpictures.net*/
+  background-size: cover;
+}
+
+.shrink {
+  padding-left: 8%;
+  padding-right: 8%;
 }
